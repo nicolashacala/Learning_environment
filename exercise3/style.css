@@ -1,0 +1,37 @@
+body{
+	width: 100%;
+	text-align: center;
+}
+iframe{
+	float: left;
+	text-align: center;
+}
+.container{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+.top{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+.welcome{
+	float: left;
+	display: block;
+}
+.logo{
+	float:left;
+	display: block;
+}
+.contact{
+	float: left;
+	display: block;
+}
+.bottombanner{
+	clear: both;
+}
+.bannerimg{
+	width: 30%;
+	margin: 0;
+}

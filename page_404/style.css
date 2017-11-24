@@ -1,0 +1,61 @@
+body{
+	width: 100%;
+	background-color: grey;
+}
+img{
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+	border: 10px groove red;
+}
+p{
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	color: red;
+	font-size: 2em;
+	font-weight: bold;
+
+}
+button{
+	display: block;
+	margin: 15px auto;
+	width: 150px;
+	transition: width 2s;
+}
+button:hover{
+	width:300px;
+}
+@keyframes bounceInUp {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  from {
+    opacity: 0;
+    transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bounceInUp {
+  animation-name: bounceInUp;
+  animation-duration: .75s;
+}
